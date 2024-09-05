@@ -14,9 +14,7 @@
 
     /*typography*/
     font-size: 15px;
-    font-family: "Outfit", sans-serif;     
-    font-optical-sizing: auto;
-    font-weight: 400;
+    font-family: "Outfit", sans-serif;
     font-style: normal;
 }
 
@@ -36,17 +34,17 @@ main {
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 320px;
-    height: 499px;
     padding: var(--spacing-200);
     padding-bottom: var(--spacing-500);
     border-radius: 20px;
     background-color: var(--white);
+    max-width: 320px;
+    height: 500px;
 }
 
 .qr-card__img-content {
+    text-align: center;
     width: 100%;
-    height: auto;
     margin-bottom: var(--spacing-300);
 }
 
@@ -64,15 +62,18 @@ main {
     color: var(--slate-900);
     font-size: var(--spacing-300);
     line-height: 120%;
+    letter-spacing: 0;
     font-weight: bold;
     margin: 0;
     margin-bottom: var(--spacing-200);
 }
 
 .qr-card__paragraph {
+    display: inline-block;
+    width: 100%;
     color: var(--slate-500);
     line-height: 140%;
-    letter-spacing: .2px;
+    letter-spacing: 0.2px;
     margin: 0;
 }
 
